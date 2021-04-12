@@ -1,7 +1,3 @@
-body {
-    background-color: #fff;
-}
-
 .fa-codepen {
     color: greenyellow;
     font-size: 70px;
@@ -53,7 +49,7 @@ body {
 
 .social-icons {
     font-size: 40px;
-    color: rgb(100, 95, 95);
+    color: #645f5f;
 }
 
 /* Slideshow */
@@ -61,7 +57,7 @@ body {
 .first-section {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: rgb(140, 201, 48);
+    background-color: #8cc930;
 }
 
 .mySlides {
@@ -153,4 +149,236 @@ img {
     padding: 10px 18px;
     margin-top: 50px;
     margin-left: 40%;
+}
+
+.second-section {
+    margin: 40px 40px 0px 40px;
+    border: 2px solid #bdbaba;
+    padding: 25px 15px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.second-section h1 {
+    text-align: left;
+    margin-left: 45px;
+    color: rgb(79, 81, 223);
+}
+
+.second-section p {
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 45px;
+}
+
+.second-section .line {
+    margin-left: 45px;
+    margin-top: -30px;
+    width: 80%;
+    height: 4px;
+    background-color: #0004ec;
+}
+
+.second-section .btn-read-more {
+    cursor: pointer;
+    margin-left: -56%;
+    padding: 8px 20px;
+    color: rgb(79, 81, 223);
+    font-weight: bold;
+}
+
+.arrow-section {
+    margin: 5px 40px;
+    ;
+    padding: 0px 15px;
+}
+
+.arrow-section .btn {
+    padding: 5px 30px;
+    cursor: pointer;
+}
+
+.arrow-section .btn-1 {
+    float: left;
+}
+
+.arrow-section .btn-2 {
+    float: right;
+}
+
+.arrow-section .fas {
+    color: rgb(0, 174, 255);
+}
+
+.blogger {
+    margin: 90px 0px 0px 40px;
+}
+
+.blog-zone {
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid rgb(141, 141, 141);
+}
+
+.blog-zone .blog-header {
+    border-bottom: 1px solid #444;
+    margin: 0px;
+    padding: 5px;
+    background-color: #eee;
+}
+
+.blog-zone .post-content {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.post-title {
+    margin-left: 120px;
+    margin-top: -120px;
+}
+
+.post-title a {
+    text-decoration: underline;
+}
+
+.post-date {
+    margin-top: 30px;
+    margin-left: -5px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    background-color: rgb(0, 194, 16);
+}
+
+.post-date .day-date {
+    font-size: 60px;
+    color: #fff;
+}
+
+.post-date .month-date {
+    color: #000;
+    font-weight: bold;
+}
+
+.blog-zone .more-posts-link {
+    border-top: 1px solid #000;
+    text-align: right;
+    background-color: #eee;
+}
+
+.blog-zone .more-posts-link p {
+    padding: 5px 15px;
+    margin: 0px;
+    color: rgb(79, 81, 223);
+}
+
+.blog-zone .more-posts-link p .far {
+    color: #000;
+}
+
+.right-side {
+    margin: 0px 0px 0px 70px;
+}
+
+.btn-search {
+    cursor: pointer;
+    background-color: #d8d4d4;
+    color: rgb(0, 194, 16);
+    font-weight: bold;
+}
+
+.cat-table {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.cat-table th {
+    background-color: #eee;
+}
+
+.cat-table table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    font-weight: bold;
+    padding: 8px 3px;
+}
+
+.cat-table td, a {
+    text-decoration: none;
+    color: rgb(0, 153, 255);
+}
+
+.cat-table .fas {
+    color: #000;
+}
+
+.comments-table {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.comments-table th {
+    background-color: #eee;
+}
+
+.comments-table table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    font-weight: bold;
+    padding: 8px 3px;
+}
+
+.comments-table td, a {
+    text-decoration: none;
+    color: rgb(0, 153, 255);
+}
+
+.comments-table .fas {
+    color: #000;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 15px;
+}
+
+.card {
+    border: 1px solid #000;
+    padding: 0px;
+    margin: 25px;
+}
+
+.card h4 {
+    margin: 0;
+    padding: 5px;
+    background-color: #ddd;
+}
+
+.card .card-img {
+    width: 80%;
+    margin: 15px 0 15px 10%;
+}
+
+.card .card-line hr {
+    padding: 0px;
+    margin: 0px;
+}
+
+.card .btn-read-more {
+    cursor: pointer;
+    margin: 0px 10% 15px 10%;
+    padding: 2px 8px;
+    align-content: flex-start;
+    color: #4f51df;
+    font-weight: bold;
+}
+
+.card p {
+    margin: 0px 10%;
+    margin-bottom: 20px;
 }
