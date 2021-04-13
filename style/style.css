@@ -400,7 +400,7 @@ img {
 .photos-side img {
     width: 35%;
     padding: 0px;
-    margin: 15px; 
+    margin: 15px;
 }
 
 .cards {
@@ -448,7 +448,7 @@ img {
 }
 
 .tweets .fab {
-    color:rgb(79, 141, 223);
+    color: rgb(79, 141, 223);
 }
 
 .tweets-item {
@@ -501,4 +501,25 @@ img {
     background-color: #000;
     color: #fff;
     padding: 3px 13px;
+}
+
+.footer-nav {
+    background-color: #a7ff33;
+    overflow: hidden;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+.footer-nav ul li {
+    display: inline;
+}
+
+.footer-nav ul li a {
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    display: inline-block;
 }
